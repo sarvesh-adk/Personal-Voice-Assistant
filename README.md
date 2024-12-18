@@ -11,7 +11,7 @@ This is a Python-based voice assistant named "Leo" that listens for specific wak
 
 ## Requirements 🛠️  
 
-### Python Libraries  
+## Python Libraries  
 Install the following Python libraries:  
 - `openai`  
 - `speech_recognition`  
@@ -25,12 +25,12 @@ pip install openai speechrecognition gtts playsound
 ## API Key
 
     Interact with Leo:
-        Say a wake word like "hi leo" to activate the assistant.
-        Ask questions or give commands.
-        Say "stop" or "bye" to end the conversation.
+    - Say a wake word like "hi leo" to activate the assistant.
+    - Ask questions or give commands.
+    - Say "stop" or "bye" to end the conversation.
 
     Audio Feedback:
-    The assistant will respond with audio playback of its replies.
+    - The assistant will respond with audio playback of its replies.
 
  ## Customization ⚙️
 
