@@ -19,23 +19,12 @@ Install the following Python libraries:
 - `playsound`  
 
 You can install these using `pip`:  
-```bash  
+
 pip install openai speechrecognition gtts playsound
 
 ## API Key
 
-To use OpenAI GPT-3, you need an API key. Set it up in the code:
-```python
-openai.api_key = "YOUR_API_KEY"  
-
-Usage 🚀
-
-    Run the Script:
-    Execute the Python script to start the assistant.
-
-    python voice_assistant.py  
-
-   ## Interact with Leo:
+    Interact with Leo:
         Say a wake word like "hi leo" to activate the assistant.
         Ask questions or give commands.
         Say "stop" or "bye" to end the conversation.
@@ -43,7 +32,7 @@ Usage 🚀
     Audio Feedback:
     The assistant will respond with audio playback of its replies.
 
-## Customization ⚙️
+ ## Customization ⚙️
 
     Wake Words:
     Modify the wake_words list in the script to add or change the words that trigger the assistant.
@@ -59,9 +48,11 @@ Usage 🚀
 ## License 📜
 
 This project is open-source and available under the MIT License.
-Acknowledgments 🙌
+
+## Acknowledgments 🙌
 
     OpenAI GPT-3 for powering intelligent responses.
     Google Speech Recognition for accurate speech-to-text conversion.
     gTTS for text-to-speech conversion.
     Playsound for audio playback.
+
